@@ -1,5 +1,6 @@
 """
-Module useful in doing GET requests
+Module useful in doing GET requests.
+"concurrent" is used for multithreading, "requests" for making HTTP requests.
 
 """
 
@@ -41,6 +42,7 @@ def download_all_sites_get(codes, num):
 def make_get_requests(given_url, codes, num):
     """
         Initialises the GET requests.
+        This is called by the main of fuzzer.py.
 
         Args:
             given_url       -- the url given in the command-line
