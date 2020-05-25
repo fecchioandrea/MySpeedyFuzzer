@@ -28,7 +28,7 @@ def parse_args(args):
 
     parser.add_argument(
         "-u", "--url",
-        help="the url of the web app to be tested, with \"{}\" for payload (if GET)",
+        help="the url of the web app to be tested (with \"{}\" for payload, if GET)",
         type=str,
         required=True
     )
