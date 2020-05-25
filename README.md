@@ -1,6 +1,6 @@
 # MySpeedyFuzzer
-[A really speedy Fuzzing program, working with multithreading]<br><br>
-It is a Python-based fuzzer, developed to discover vulnerabilities during web application security assessments. The fuzzer was inspired by the Burp "Intruder" tool, but leverages multi-threading to obtain faster performance with respect to the community edition of Burp. The project has a small codebase and it's fully open-source, to allow other developers to easily write extensions or modify it.<br><br>
+[A speedy Fuzzing program, working with multithreading]<br><br>
+It is a Python-based fuzzer, developed to discover vulnerabilities during web application security assessments. The fuzzer was inspired by the Burp Suite "Intruder" tool, but leverages multi-threading to obtain faster performances, with respect to the Community Edition of Burp Suite. The project has a small codebase and is fully open-source, to allow other developers to easily modify/extend it.<br><br>
 © Andrea Fecchio, Performance Evaluation Group, UniPV, 2019<br><br><br>
 Run main routine from fuzzer.py.<br>
 Usage:<br>
