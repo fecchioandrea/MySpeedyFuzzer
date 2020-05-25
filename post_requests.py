@@ -12,8 +12,10 @@ PARAM = {}
 
 def split_data(par):
     """
-        Splits the key and the value, in case they were indicated
-            from the user in the command-line, to be used in POSTs.
+        Splits the key and the value (in case they were indicated
+            from the user in the command-line, to be used in POSTs).
+        We had:     par = "key=value";
+        We are returned:    couple = ["key", "value"].
 
         Args:
             par       -- parameters to be split
@@ -52,7 +54,7 @@ def download_all_sites_post(codes, num):
 
     """
     with concurrent.futures.ThreadPoolExecutor(max_workers=num) as executor:
-        executor.map(download_site_post, codes)  # in "map" sta il ciclo
+        executor.map(download_site_post, codes)  # the "cycle" is implemented with the "map"
 
 
 def make_post_requests(data, given_url, codes, num):
