@@ -8,7 +8,7 @@ Usage:<br>
 
 Arguments:<br>
   -h, --help      --> show this help message and exit<br>
-  -u URL, --url URL     --> the url of the web app to be tested, with "{}" for payloads (in case GET)<br>
+  -u URL, --url URL     --> the url of the web app to be tested (with "{}" for payloads, in case GET)<br>
   -t CONCURRENCY, --concurrency CONCURRENCY     --> max number of concurrent HTTP requests<br>
   -l FILELIST, --filelist FILELIST    --> input .txt file(s), containing one payload per line<br>
   -d DATA, --data DATA    --> key-value couple (indicated: "key={}") staying for the parameter to be found (only in case POST)<br><br>
