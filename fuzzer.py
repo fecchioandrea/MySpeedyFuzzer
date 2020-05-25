@@ -17,12 +17,13 @@ THREAD_LOCAL = threading.local()
 
 def build_list(files):
     """
-        Build the Python list with codes to be used, starting
-        from one or more text file(s) in which codes are listed.
+        Build the Python list with the codes to be used as payloads, starting
+        from one or more text file(s) (like "bypass1.txt") in which codes are listed.
 
         Args:
             files       -- list of inputfiles
-
+        Local Variables:
+            a_file      -- one of the multiple files as input
         Returns:
             codes       -- list of codes to be used
 
@@ -41,6 +42,7 @@ def build_list(files):
 def main():
     """
     Main routine of the fuzzer.
+    The various args (passed by command lines) are parsed and used.
 
     """
     args = parse_args(sys.argv[1:])
