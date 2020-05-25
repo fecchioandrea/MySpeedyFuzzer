@@ -4,7 +4,7 @@ It is a Python-based fuzzer, developed to discover vulnerabilities during web ap
 © Andrea Fecchio, Performance Evaluation Group, UniPV, 2019<br><br><br>
 Run main routine from fuzzer.py.<br>
 Usage:<br>
-  PROG_NAME [-h] -u URL -t CONCURRENCY -l FILELIST [FILELIST ...] [-d DATA]<br><br>
+  python3 fuzzer.py [-h] -u URL -t CONCURRENCY -l FILELIST [FILELIST ...] [-d DATA]<br><br>
 
 Arguments:<br>
   -h, --help      --> show this help message and exit<br>
